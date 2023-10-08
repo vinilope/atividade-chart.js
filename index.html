@@ -41,6 +41,7 @@
         'Maio',
         'Junho',
     ];
+
     const dataLinha = {
         labels: labelsLinha,
         datasets: [{
@@ -72,6 +73,7 @@
             data: [90, 89, 93, 87, 88, 82]
         }]
     };
+
     const configLinha = {
         type: 'line',
         data: dataLinha,
@@ -83,6 +85,7 @@
         data: dataBarra,
         options: {}
     };
+
     const chartLinha = new Chart(
         document.getElementById('chartLinha'),
         configLinha
@@ -93,6 +96,4 @@
         configBarra
     );
 </script>
-  
-
 </html>
