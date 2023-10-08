@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ .container {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .container .titulo {
+    font-family: monospace;
+    margin: 0 0 100px 0;
+ }
+
+ .canvas-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .canvas-container .canvas-item {
+    width: 100%;
+ }
